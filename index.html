@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type=text/css href="cyberbot.css">
+    <script type="text/javascript" src="cyberbot.js"></script>
+
+    <title>Sentinals</title>
+</head>
+
+<body bgcolor=black onkeydown='getKeyAndMove(event)' background="./clip3.gif" style="background-repeat: repeat;">
+
+    <!-- Help -->
+
+    <center>
+        <div class="help" id="help" style=" margin-top: -100px; ">
+
+            <div class="content" id=hel>
+                Use<span style="color: brown;"> Arrow keys</span> to move the robot.
+                <br><br><span style="color: brown;"> Hover </span> mouse<span style="color: brown;"> on the robot</span> to see what it does. <br><br> <span style="color: brown;">Press </span>given <span style="color: brown;">buttons</span> buttons to
+                interact with robot.
+                <br><br> Press<span style="color: brown;"> R</span> to reset the robot's position. <br><br>Press <span style="color: brown;"> Space bar</span> to make him jump. </div>
+            <button onclick="closed() " class=btn style="font-size: 19px;margin: 0 auto;float: none; border-radius: 10%;height: 40px;border: none;top:5%">Close</button><br>
+        </div>
+    </center>
+
+    <!-- Help End -->
+    <!-- Greetings Start -->
+    <div id=loader>
+        <div id=content> </div>
+    </div>
+    <!-- Greeting Ends -->
+
+
+
+    <center>
+        <!-- A box for ADORA -->
+
+
+
+        <div id="box" style="width: 300px;height: 300px; ">
+
+            <div class="r2d2_face" id=face><br>
+
+                <div class="line" id=eys></div>
+
+                <div class=r2d2_eyes id=eys1></div>
+
+                <div class=r2d2_eyes id=eys2></div>
+
+                <div class=r2d2_lips id=lips></div>
+
+            </div>
+
+            <div class="hand1" id="hand1"></div>
+
+            <div class="hand2" id="hand2"></div>
+
+            <div class=r2d2_body><br><br><br><br>
+
+                <div class="innerCircle" id="icla"></div>
+
+            </div>
+
+
+
+        </div>
+        <!-- Adora Box ends -->
+
+    </center>
+    <center></center>
+    <div class="panel">
+        <br><br><br><br>
+        <button id="btn0 " class=btn onclick="infor()">i</button>
+        <button id="btn " class=btn style="font-size: 15px;background-color: brown;color: beige; " onclick="resetpo() ">RESET</button>
+        <button id="btn1 " class=btn style="font-size: 12px; " onclick="sqeeze() ">SQUEEZE</button>
+        <button id="btn2 " class=btn style="font-size: 12px; " onclick="flip() "> FLIP</button>
+        <button id="btn3 " class=btn style="font-size: 12px; " onclick="teleport() "> TELEPORT</button>
+        <button id="btn4 " class=btn style="font-size: 12px; " onclick="dances() "> DANCE</button>
+        </center>
+
+
+
+
+
+</body>
+
+</html>
