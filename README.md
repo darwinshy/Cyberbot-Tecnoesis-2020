@@ -1,2 +1,5 @@
-# cyberbot2020
-Cyberbot is an event in Tecnoesis of NIT Silchar. Cyberbot is a module under Cyberwarp.  
+# "Andro"
+This is the project submission for Cyberbot under Tecnoesis Cyberwarp module.
+Desgined by Shashwat Priyadarshy.
+HTML,CSS,JS
+
