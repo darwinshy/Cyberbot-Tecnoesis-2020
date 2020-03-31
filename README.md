@@ -1,5 +1,5 @@
 # "Andro : The Cyberbot"
-# <a href="https://reverope.github.io/cyberbot2020">Click to See</a>
+# <a href="https://reverope.github.io/Cyberbot-Tecnoesis-2020/">Click to See</a>
 
 ##  This is the project submission for Cyberbot under Tecnoesis Cyberwarp module.
 ### Desgined by Shashwat Priyadarshy.
